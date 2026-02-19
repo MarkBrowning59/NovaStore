@@ -13,6 +13,7 @@ import ProductCreatePage from "./pages/ProductCreatePage";
 
 const CatalogsPage = lazyWithPreload(() => import('./pages/CatalogsPage.jsx'));
 const CatalogProductsPage = lazyWithPreload(() => import('./pages/ProductsPage.jsx'));
+const TemplateStudio = lazyWithPreload(() => import('./pages/TemplateStudio.jsx'));
 
 
 
@@ -21,6 +22,7 @@ export default function App() {
   useEffect(() => {
     CatalogsPage.preload();
     CatalogProductsPage.preload(); 
+    TemplateStudio.preload();
   }, []);
 
 
@@ -31,6 +33,7 @@ export default function App() {
         <Route index element={<Home />} />   
         <Route path="catalogs" element={<CatalogsPage />} />    
         <Route path="catalogs/:id" element={<CatalogsPage />} />
+        <Route path="templates" element={<TemplateStudio />} />
         <Route path="/product-profiles" element={<ProductProfilesPage />} />  
         <Route path="/products/:id" element={<ProductEditPage />} />
         <Route path="*" element={<NotFound />} />

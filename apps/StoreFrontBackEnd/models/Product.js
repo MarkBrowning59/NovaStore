@@ -100,6 +100,10 @@ Extensions: { type: Schema.Types.Mixed, default: {} },
       type: Schema.Types.Mixed,
       default: {},
     },
+
+    // 🔹 NEW: controls which product page layout is used by the storefront renderer.
+    // If null/empty, storefront should fall back to the default ProductTemplate.
+    templateKey: { type: String, default: null, trim: true },
   },
   {
     collection: 'products',

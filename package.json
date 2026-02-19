@@ -6,10 +6,11 @@
     "packages/*"
   ],
   "scripts": {
-    "admin": "npm --workspace apps/StoreFrontAdmin run dev",
     "backend": "npm --workspace apps/StoreFrontBackEnd run dev",
-    "dev": "concurrently \"npm run backend\" \"npm run admin\"",
-    "core": "concurrently \"npm run backend\" \"npm --workspace packages/StoreFrontCore run dev\""
+
+    "admin":  "npm --workspace apps/StoreFrontAdmin run dev",
+
+    "core": "npm --workspace packages/StoreFrontCore run dev"
   },
   "devDependencies": {
     "concurrently": "^9.2.1"

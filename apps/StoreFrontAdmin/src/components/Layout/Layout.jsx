@@ -11,6 +11,7 @@ export default function Layout() {
   const headerLinks = [
     // { href: '/', label: 'Home' },
     { href: '/catalogs/', label: 'Catalogs' },
+     { href: '/templates', label: 'Templates' },
      { href: '/product-profiles', label: 'Product Profiles' }
   ];
 

@@ -3,7 +3,9 @@ import { useEffect, useMemo, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { getProduct } from "../services/productApi";
 import { getProductBase } from "../services/productBasesApi";
+import { listProductTemplates } from "../services/productTemplatesApi";
 import { deepMerge, getByPath } from "../utils/inheritance";
+import { renderBlocks } from "../blocks/renderBlocks.jsx";
 
 // Decode HTML entities like &lt;p&gt; into real tags before rendering
 function decodeHtmlEntities(str) {
@@ -19,7 +21,6 @@ function decodeHtmlEntities(str) {
  */
 function cleanHtml(html) {
   if (!html) return "";
-  // Example cleanup: remove empty paragraphs & extra whitespace-only nodes
   return html
     .replace(/<p>\s*<\/p>/gi, "")
     .replace(/<div>\s*<\/div>/gi, "")
@@ -34,8 +35,11 @@ export default function ProductPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [product, setProduct] = useState(null);
-
   const [baseDoc, setBaseDoc] = useState(null);
+
+  // Templates
+  const [template, setTemplate] = useState(null);
+  const [templateError, setTemplateError] = useState("");
 
   // Load product
   useEffect(() => {
@@ -85,7 +89,6 @@ export default function ProductPage() {
 
         setBaseDoc(res?.baseProduct || res);
       } catch (e) {
-        // Non-fatal for storefront rendering
         console.warn("Failed to load base product:", e);
         setBaseDoc(null);
       }
@@ -99,7 +102,7 @@ export default function ProductPage() {
 
   const baseDefaults = useMemo(() => baseDoc?.Defaults || null, [baseDoc]);
 
-  // Compute “resolved” view (base + overrides + extensions) like admin does
+  // Compute “resolved” view (base + overrides + extensions)
   const resolved = useMemo(() => {
     const overrides = product?.Overrides || {};
     const extensions = product?.Extensions || {};
@@ -126,18 +129,13 @@ export default function ProductPage() {
   }, [product, baseDefaults]);
 
   const name = useMemo(() => {
-    return (
-      getByPath(resolved, "ProductDefinition.Name", "") ||
-      product?._id ||
-      "Product"
-    );
+    return getByPath(resolved, "ProductDefinition.Name", "") || product?._id || "Product";
   }, [resolved, product]);
 
   const shortDescription = useMemo(() => {
     return getByPath(resolved, "ProductDefinition.ShortDescription", "");
   }, [resolved]);
 
-  // Try a few likely description fields (customize to your schema)
   const rawHtmlDescription = useMemo(() => {
     return (
       getByPath(resolved, "ProductDefinition.DescriptionHtml", "") ||
@@ -153,7 +151,7 @@ export default function ProductPage() {
     return cleanHtml(decoded);
   }, [rawHtmlDescription]);
 
-  // Images: customize to match your actual model
+  // Images
   const images = useMemo(() => {
     const arr =
       getByPath(resolved, "ProductDefinition.Images", null) ||
@@ -162,9 +160,7 @@ export default function ProductPage() {
     return Array.isArray(arr) ? arr : [];
   }, [resolved]);
 
-  const primaryImage = images?.[0] || null;
-
-  // Price: customize to match your actual model
+  // Price (placeholder)
   const priceText = useMemo(() => {
     const from =
       getByPath(resolved, "Pricing.FromPrice", null) ??
@@ -181,7 +177,6 @@ export default function ProductPage() {
     const val = from ?? base;
     if (val == null || val === "") return "";
 
-    // If number-like, format; else show as-is (some systems store “From $48.40 USD” as a string)
     const n = Number(val);
     if (!Number.isNaN(n) && Number.isFinite(n)) {
       return n.toLocaleString(undefined, { style: "currency", currency: "USD" });
@@ -189,12 +184,60 @@ export default function ProductPage() {
     return String(val);
   }, [resolved]);
 
+  // Resolve template (product.templateKey -> template.key; else default)
+  useEffect(() => {
+    let cancelled = false;
+
+    async function loadTemplate() {
+      try {
+        setTemplateError("");
+        setTemplate(null);
+
+        const keyFromProduct = product?.templateKey || getByPath(resolved, "templateKey", null) || getByPath(resolved, "ProductDefinition.TemplateKey", null);
+
+        const list = await listProductTemplates();
+        if (cancelled) return;
+
+        if (!Array.isArray(list) || list.length === 0) {
+          setTemplate(null);
+          return;
+        }
+
+        const byKey = keyFromProduct ? list.find((t) => t?.key === keyFromProduct) : null;
+        const def = list.find((t) => t?.isDefault) || null;
+        setTemplate(byKey || def || list[0] || null);
+      } catch (e) {
+        if (!cancelled) {
+          setTemplateError(e?.response?.data?.message || e?.message || "Failed to load templates.");
+          setTemplate(null);
+        }
+      }
+    }
+
+    if (product) loadTemplate();
+    return () => {
+      cancelled = true;
+    };
+  }, [product, resolved]);
+
   if (loading) return <div className="p-4 text-sm">Loading product…</div>;
   if (error) return <div className="p-4 text-sm text-red-600">Error: {error}</div>;
   if (!product) return <div className="p-4 text-sm">Product not found.</div>;
 
-  console.log(product);
-  
+  // Trusted context available to all blocks
+  const blockContext = {
+    product,
+    resolved,
+    name,
+    shortDescription,
+    images,
+    htmlDescription,
+    priceText,
+    onAddToCart: () => alert("Hook this up to your cart flow"),
+  };
+
+  const hasTemplateBlocks = Array.isArray(template?.blocks) && template.blocks.length > 0;
+
   return (
     <div className="mx-auto max-w-6xl p-4">
       {/* Header / nav */}
@@ -207,7 +250,6 @@ export default function ProductPage() {
             Back
           </button>
 
-          {/* Optional: link back to catalog/list routes */}
           <Link className="rounded-xl border px-3 py-2 shadow-sm hover:bg-slate-50" to="/catalogs">
             Catalogs
           </Link>
@@ -218,100 +260,75 @@ export default function ProductPage() {
         </div>
       </div>
 
-      {/* Main layout */}
-      <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
-        {/* Gallery */}
-        <div className="rounded-2xl border bg-white p-4 shadow-sm">
-          <div className="aspect-[4/3] w-full overflow-hidden rounded-2xl bg-slate-50 flex items-center justify-center">
-            {primaryImage ? (
-              // If your images are objects, adjust: primaryImage.url etc.
-              <img
-                src={typeof primaryImage === "string" ? primaryImage : primaryImage?.url}
-                alt={name}
-                className="h-full w-full object-contain"
-                loading="lazy"
-              />
+      {templateError ? (
+        <div className="mb-4 rounded-xl border border-amber-200 bg-amber-50 p-3 text-xs text-amber-900">
+          Template warning: {templateError}
+        </div>
+      ) : null}
+
+      {hasTemplateBlocks ? (
+        <div className="space-y-4">
+          {renderBlocks(template.blocks, blockContext)}
+        </div>
+      ) : (
+        // Fallback: original hardcoded layout until templates exist
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
+          <div className="lg:col-span-2 mb-1 text-xs opacity-60">
+            No template blocks found (using fallback layout). Create a template in Admin → Templates.
+          </div>
+
+          {/* Gallery */}
+          <div className="rounded-2xl border bg-white p-4 shadow-sm">
+            <div className="aspect-[4/3] w-full overflow-hidden rounded-2xl bg-slate-50 flex items-center justify-center">
+              {images?.[0] ? (
+                <img
+                  src={typeof images[0] === "string" ? images[0] : images[0]?.url}
+                  alt={name}
+                  className="h-full w-full object-contain"
+                  loading="lazy"
+                />
+              ) : (
+                <div className="text-xs opacity-60">No image</div>
+              )}
+            </div>
+          </div>
+
+          {/* Product info */}
+          <div className="rounded-2xl border bg-white p-4 shadow-sm">
+            <div className="text-2xl font-semibold leading-tight">{name}</div>
+            {shortDescription ? <div className="mt-2 text-sm opacity-80">{shortDescription}</div> : null}
+            {priceText ? <div className="mt-4 text-xl font-semibold">{priceText}</div> : null}
+
+            <div className="mt-4 flex flex-wrap gap-2">
+              <button
+                type="button"
+                className="rounded-xl bg-black px-4 py-2 text-sm font-medium text-white shadow-sm hover:opacity-90"
+                onClick={() => alert("Hook this up to your cart flow")}
+              >
+                Add to cart
+              </button>
+
+              <button
+                type="button"
+                className="rounded-xl border px-4 py-2 text-sm shadow-sm hover:bg-slate-50"
+                onClick={() => alert("Hook this up to your wishlist flow")}
+              >
+                Save
+              </button>
+            </div>
+          </div>
+
+          {/* Description */}
+          <div className="lg:col-span-2 rounded-2xl border bg-white p-4 shadow-sm">
+            <div className="text-sm font-semibold">Details</div>
+            {htmlDescription ? (
+              <div className="prose prose-sm max-w-none mt-3" dangerouslySetInnerHTML={{ __html: htmlDescription }} />
             ) : (
-              <div className="text-xs opacity-60">No image</div>
+              <div className="mt-3 text-sm opacity-70">No description.</div>
             )}
           </div>
-
-          {images.length > 1 ? (
-            <div className="mt-3 grid grid-cols-5 gap-2">
-              {images.slice(0, 10).map((img, idx) => {
-                const src = typeof img === "string" ? img : img?.url;
-                return (
-                  <div key={idx} className="aspect-square overflow-hidden rounded-xl border bg-white">
-                    {src ? (
-                      <img src={src} alt={`${name} ${idx + 1}`} className="h-full w-full object-cover" loading="lazy" />
-                    ) : null}
-                  </div>
-                );
-              })}
-            </div>
-          ) : null}
         </div>
-
-        {/* Product info */}
-        <div className="rounded-2xl border bg-white p-4 shadow-sm">
-          <div className="text-2xl font-semibold leading-tight">{name}</div>
-
-          {shortDescription ? (
-            <div className="mt-2 text-sm opacity-80">{shortDescription}</div>
-          ) : null}
-
-          {priceText ? (
-            <div className="mt-4 text-xl font-semibold">{priceText}</div>
-          ) : null}
-
-          <div className="mt-4 flex flex-wrap gap-2">
-            <button
-              type="button"
-              className="rounded-xl bg-black px-4 py-2 text-sm font-medium text-white shadow-sm hover:opacity-90"
-              onClick={() => alert("Hook this up to your cart flow")}
-            >
-              Add to cart
-            </button>
-
-            <button
-              type="button"
-              className="rounded-xl border px-4 py-2 text-sm shadow-sm hover:bg-slate-50"
-              onClick={() => alert("Hook this up to your wishlist flow")}
-            >
-              Save
-            </button>
-          </div>
-
-          {/* Optional meta */}
-          <div className="mt-6 grid grid-cols-1 gap-2 text-xs opacity-75">
-            {product?.BaseProductID ? (
-              <div>
-                Base: <span className="font-mono">{product.BaseProductID}</span>
-              </div>
-            ) : null}
-            {Array.isArray(product?.CatalogIds) && product.CatalogIds.length ? (
-              <div>
-                Catalogs: <span className="font-mono">{product.CatalogIds.join(", ")}</span>
-              </div>
-            ) : null}
-          </div>
-        </div>
-
-        {/* Description */}
-        <div className="lg:col-span-2 rounded-2xl border bg-white p-4 shadow-sm">
-          <div className="text-sm font-semibold">Details</div>
-
-          {htmlDescription ? (
-            <div
-              className="prose prose-sm max-w-none mt-3"
-              // If you decide to add DOMPurify later, sanitize `htmlDescription` before injecting.
-              dangerouslySetInnerHTML={{ __html: htmlDescription }}
-            />
-          ) : (
-            <div className="mt-3 text-sm opacity-70">No description.</div>
-          )}
-        </div>
-      </div>
+      )}
     </div>
   );
 }
