@@ -1,0 +1,7 @@
+#utilitiesNavBar{
+  /* grid-area: UtilNavBar; */
+  justify-self: center;
+  font-size: 1.5rem;
+  grid-column: 1 / 3 ;
+  grid-row: 2;
+}

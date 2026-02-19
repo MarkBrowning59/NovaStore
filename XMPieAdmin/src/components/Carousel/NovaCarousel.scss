@@ -1,0 +1,30 @@
+@import "_theme.scss";
+
+
+.NovaCarousel
+{
+  margin: 0 auto;
+  width: 50vw;
+  height:75vh;
+  border: 2px solid orange;
+  border-radius: 3px;
+
+  .carouselBtn{
+    position:absolute;
+    top:50%;
+    z-index: 1;
+    transform: translateY( -50%);
+  }
+  .previous-btn{
+    left: -25% ; 
+  }
+  .next-btn{
+    right: -25%;
+  }
+
+  .pause-btn, .play-btn  {
+    top: 70%;
+    right: 5%;
+  }
+
+}

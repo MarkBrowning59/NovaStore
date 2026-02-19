@@ -1,0 +1,15 @@
+main{
+  position: absolute;
+  top: 74vh;
+}
+
+main::after{
+  border-radius: 100%;
+  position: absolute;
+  right: -200px;
+  left: -200px;
+  top: 85vh;
+  bottom: -280px;
+  content: "";
+  background-color: var(--NovaTeal);
+}

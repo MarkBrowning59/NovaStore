@@ -1,0 +1,17 @@
+#categoriesNavBar{
+  /* grid-area: CatNavBar; */
+  justify-self: center;
+  font-size: 1.5rem;
+  grid-column: 1 / 3 ;
+  grid-row: 1;
+}
+#categoriesNavBar a{
+  margin-right: 20px;
+  text-decoration: none;
+}
+#categoriesNavBar a:hover{
+  color:var(--nova-tertiary);
+}
+
+ 
+ 

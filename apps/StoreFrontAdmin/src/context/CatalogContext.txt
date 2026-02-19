@@ -1,0 +1,10 @@
+CatalogContext.jsx provides centralized global state management for catalogs and their products using React Context + useReducer. This setup:
+
+Allows deeply nested components to access and update catalog data.
+
+Supports async loading states and error handling.
+
+Enables modular, scalable state updates for catalogs/products/subcatalogs.
+
+
+It defines a React Context to manage the global state of product catalogs and products.

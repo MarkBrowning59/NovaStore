@@ -1,0 +1,6 @@
+footer{
+  grid-area: ft;
+  background-color: var(--NovaTeal);
+  border-top: var(--NovaGrey) solid 2px;
+  color: var(--nova-text-secondary);
+}

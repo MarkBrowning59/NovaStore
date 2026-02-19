@@ -1,0 +1,29 @@
+
+#mainLayout{
+  position: relative;
+  height:100vh;
+  margin:0;
+  color: var(--nova-text-secondary);
+}
+
+/* Using grid-template-areas */
+
+  #mainLayout {
+  display: grid;
+  grid-template-rows: .5fr 3fr 1fr; 
+    grid-template-areas:
+    "hd"
+    "mainLayoutContent"
+    "ft"; 
+}
+
+
+
+/* A flexible 12-column layout */
+/* #mainLayout
+{
+  display: grid;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+  gap: 20px;
+} */
+

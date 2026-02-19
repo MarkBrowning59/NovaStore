@@ -1,0 +1,27 @@
+#heroPage
+{
+position:relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url('../../assets/images/NovaHero.png') no-repeat center center/cover; 
+  overflow: hidden;
+  height:100%;
+}
+
+#heroPage::after{
+  border-radius: 100%;
+  position: absolute;
+  right: -200px;
+  left: -200px;
+  top: 75vh;
+  bottom: -280px;
+  content: "";
+  background-color: var(--nova-primary);
+}
+
+#heroMessageTag{
+  grid-area: heroMsg;
+  letter-spacing: 1rem;
+}

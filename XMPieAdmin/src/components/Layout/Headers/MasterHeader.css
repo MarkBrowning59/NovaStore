@@ -1,0 +1,16 @@
+#mainHeader {
+  position: sticky;
+  top: 0;
+  background-color: var(--NovaTeal);
+  border-bottom: var(--NovaGrey) solid 2px;
+  color: var(--nova-text-secondary);
+
+  display: grid;
+  grid-area: hd;
+  grid-template-columns: .25fr 3fr;
+  grid-template-rows: auto;
+  /* grid-template-areas: "LogoContainer CatNavBar"; */
+  align-items: center;
+  z-index: 1;
+}
+

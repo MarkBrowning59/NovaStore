@@ -1,0 +1,3200 @@
+[
+  {
+    "ID": 5.04e2,
+    "Branch": "Internal",
+    "Description": "NOVA Users",
+    "Ranking": 0.0
+  },
+  {
+    "ID": 1.0,
+    "Branch": "000",
+    "Description": "SELECT BRANCH",
+    "Ranking": 1.0
+  },
+  {
+    "ID": 2.0,
+    "Branch": "001",
+    "Description": "001 - White Cap - Santa Ana",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.0,
+    "Branch": "002",
+    "Description": "002 - White Cap - Chatsworth",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 4.0,
+    "Branch": "003",
+    "Description": "003 - White Cap - San Diego",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.0,
+    "Branch": "004",
+    "Description": "004 - White Cap - Riverside",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 6.0,
+    "Branch": "005",
+    "Description": "005 - White Cap - San Juan Capistrano",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 7.0,
+    "Branch": "006",
+    "Description": "006 - White Cap - Temecula",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 8.0,
+    "Branch": "007",
+    "Description": "007 - White Cap - Ventura",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 9.0,
+    "Branch": "008",
+    "Description": "008 - White Cap - Indio",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.0e1,
+    "Branch": "009",
+    "Description": "009 - White Cap - Paramount",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.1e1,
+    "Branch": "011",
+    "Description": "011 - White Cap - Las Vegas",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.2e1,
+    "Branch": "012",
+    "Description": "012 - White Cap - West Phoenix",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.3e1,
+    "Branch": "013",
+    "Description": "013 - White Cap - North Phoenix",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.4e1,
+    "Branch": "014",
+    "Description": "014 - White Cap - Phoenix",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.5e1,
+    "Branch": "015",
+    "Description": "015 - White Cap - Corona",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.6e1,
+    "Branch": "016",
+    "Description": "016 - White Cap - Concord",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.7e1,
+    "Branch": "017",
+    "Description": "017 - White Cap - San Francisco",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.8e1,
+    "Branch": "018",
+    "Description": "018 - White Cap - Dublin",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.9e1,
+    "Branch": "019",
+    "Description": "019 - White Cap - Marina Del Rey",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.0e1,
+    "Branch": "020",
+    "Description": "020 - White Cap - North Highlands",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.1e1,
+    "Branch": "021",
+    "Description": "021 - White Cap - Livermore",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.2e1,
+    "Branch": "022",
+    "Description": "022 - White Cap - Hayward",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.3e1,
+    "Branch": "023",
+    "Description": "023 - White Cap - Stockton",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.4e1,
+    "Branch": "024",
+    "Description": "024 - White Cap - Fairfield",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.5e1,
+    "Branch": "025",
+    "Description": "025 - White Cap - Fresno",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.6e1,
+    "Branch": "026",
+    "Description": "026 - White Cap - Santa Rosa",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.7e1,
+    "Branch": "027",
+    "Description": "027 - White Cap - Salinas",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.8e1,
+    "Branch": "028",
+    "Description": "028 - White Cap - Ontario",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.9e1,
+    "Branch": "029",
+    "Description": "029 - White Cap - Downtown LA",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.0e1,
+    "Branch": "030",
+    "Description": "030 - White Cap - Kent",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.1e1,
+    "Branch": "031",
+    "Description": "031 - White Cap - Eugene",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.2e1,
+    "Branch": "032",
+    "Description": "032 - White Cap - Portland",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.3e1,
+    "Branch": "033",
+    "Description": "033 - White Cap - Rancho Cordova",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.4e1,
+    "Branch": "034",
+    "Description": "034 - White Cap - Sacramento",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.5e1,
+    "Branch": "035",
+    "Description": "035 - White Cap - San Jose",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.6e1,
+    "Branch": "036",
+    "Description": "036 - White Cap - El Cajon",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.7e1,
+    "Branch": "038",
+    "Description": "038 - White Cap - North Las Vegas",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.8e1,
+    "Branch": "040",
+    "Description": "040 - White Cap - Reno",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.9e1,
+    "Branch": "043",
+    "Description": "043 - White Cap - Fort Collins",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 4.0e1,
+    "Branch": "044",
+    "Description": "044 - White Cap - Grand Junction",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 4.1e1,
+    "Branch": "045",
+    "Description": "045 - White Cap - Colorado Springs",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 4.2e1,
+    "Branch": "046",
+    "Description": "046 - White Cap - Seattle",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 4.3e1,
+    "Branch": "047",
+    "Description": "047 - White Cap - Spokane",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 4.4e1,
+    "Branch": "050",
+    "Description": "050 - White Cap - Salt Lake City",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 4.5e1,
+    "Branch": "051",
+    "Description": "051 - White Cap - El Paso",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 4.6e1,
+    "Branch": "052",
+    "Description": "052 - White Cap - Albuquerque",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 4.7e1,
+    "Branch": "053",
+    "Description": "053 - White Cap - North Tucson",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 4.8e1,
+    "Branch": "054",
+    "Description": "054 - White Cap - Gardena, CA",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 4.9e1,
+    "Branch": "055",
+    "Description": "055 - White Cap - Aurora",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.0e1,
+    "Branch": "058",
+    "Description": "058 - White Cap - Houston 3",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.1e1,
+    "Branch": "059",
+    "Description": "059 - White Cap - National City",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.2e1,
+    "Branch": "060",
+    "Description": "060 - White Cap - Orem",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.3e1,
+    "Branch": "061",
+    "Description": "061 - White Cap - Santa Barbara",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.4e1,
+    "Branch": "062",
+    "Description": "062 - White Cap - Marysville",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.5e1,
+    "Branch": "063",
+    "Description": "063 - White Cap - Saint George",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.6e1,
+    "Branch": "064",
+    "Description": "064 - White Cap - Azusa",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.7e1,
+    "Branch": "065",
+    "Description": "065 - White Cap - Santa Maria",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.8e1,
+    "Branch": "066",
+    "Description": "066 - White Cap - Stockton (DC)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.9e1,
+    "Branch": "068",
+    "Description": "068 - White Cap - Roseville",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 6.0e1,
+    "Branch": "069",
+    "Description": "069 - White Cap - Bakersfield",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 6.1e1,
+    "Branch": "074",
+    "Description": "074 - White Cap - Direct/E - Commerce",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 6.2e1,
+    "Branch": "080",
+    "Description": "080 - White Cap - General Corporate Use",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 6.3e1,
+    "Branch": "081",
+    "Description": "081 - White Cap - Executive",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 6.4e1,
+    "Branch": "082",
+    "Description": "082 - White Cap - Sales",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 6.5e1,
+    "Branch": "085",
+    "Description": "085 - White Cap - Purchasing",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 6.6e1,
+    "Branch": "086",
+    "Description": "086 - White Cap - Accounting",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 6.7e1,
+    "Branch": "087",
+    "Description": "087 - White Cap - Accounts Receivable",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 6.8e1,
+    "Branch": "088",
+    "Description": "088 - White Cap - Information Technology",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 6.9e1,
+    "Branch": "091",
+    "Description": "091 - White Cap - Human Resources",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 7.0e1,
+    "Branch": "092",
+    "Description": "092 - White Cap - Accounts Payable",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 7.1e1,
+    "Branch": "093",
+    "Description": "093 - White Cap - Pricing",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 7.2e1,
+    "Branch": "094",
+    "Description": "094 - White Cap - Project Management",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 7.3e1,
+    "Branch": "101",
+    "Description": "101 - White Cap - Omaha",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 7.4e1,
+    "Branch": "102",
+    "Description": "102 - White Cap - Lincoln",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 7.5e1,
+    "Branch": "104",
+    "Description": "104 - White Cap - Des Moines",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 7.6e1,
+    "Branch": "105",
+    "Description": "105 - White Cap - Iowa City",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 7.7e1,
+    "Branch": "107",
+    "Description": "107 - White Cap - Springdale",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 7.8e1,
+    "Branch": "109",
+    "Description": "109 - White Cap - Edison",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 7.9e1,
+    "Branch": "110",
+    "Description": "110 - White Cap - Queens, NY",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 8.0e1,
+    "Branch": "111",
+    "Description": "111 - White Cap - Stoughton",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 8.1e1,
+    "Branch": "112",
+    "Description": "112 - White Cap - North Bergen",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 8.2e1,
+    "Branch": "113",
+    "Description": "113 - White Cap - Boston",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 8.3e1,
+    "Branch": "114",
+    "Description": "114 - White Cap - Manchester",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 8.4e1,
+    "Branch": "117",
+    "Description": "117 - White Cap - Springfield MO",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 8.5e1,
+    "Branch": "120",
+    "Description": "120 - White Cap - Tulsa, OK",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 8.6e1,
+    "Branch": "121",
+    "Description": "121 - White Cap - Davenport",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 8.7e1,
+    "Branch": "123",
+    "Description": "123 - White Cap - Cedar Rapids",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 8.8e1,
+    "Branch": "125",
+    "Description": "125 - White Cap - Kansas City",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 8.9e1,
+    "Branch": "126",
+    "Description": "126 - White cap - Minneapolis",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 9.0e1,
+    "Branch": "127",
+    "Description": "127 - White Cap - Mendota Heights, MN",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 9.1e1,
+    "Branch": "130",
+    "Description": "130 - White Cap - Auburn (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 9.2e1,
+    "Branch": "133",
+    "Description": "133 - Kenseal/White Cap - Boston",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 9.3e1,
+    "Branch": "134",
+    "Description": "134 - White Cap - Cranston (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 9.4e1,
+    "Branch": "138",
+    "Description": "138 - White Cap - East Wareham (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 9.5e1,
+    "Branch": "139",
+    "Description": "139 - White Cap - Plainville (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 9.6e1,
+    "Branch": "140",
+    "Description": "140 - White Cap - Woburn (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 9.7e1,
+    "Branch": "141",
+    "Description": "141 - White Cap - Ardsley (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 9.8e1,
+    "Branch": "143",
+    "Description": "143 - White Cap - Brooklyn (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 9.9e1,
+    "Branch": "146",
+    "Description": "146 - Kenseal/White Cap - Long Island ity",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.0e2,
+    "Branch": "147",
+    "Description": "147 - White Cap - Queens (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.01e2,
+    "Branch": "148",
+    "Description": "148 - White Cap - Sayreville",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.02e2,
+    "Branch": "149",
+    "Description": "149 - White Cap - Fryeburg",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.03e2,
+    "Branch": "151",
+    "Description": "151 - White Cap - Indianapolis",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.04e2,
+    "Branch": "153",
+    "Description": "153 - White Cap - Fort Wayne",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.05e2,
+    "Branch": "154",
+    "Description": "154 - White Cap - Columbus OH",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.06e2,
+    "Branch": "156",
+    "Description": "156 - White Cap - Cleveland",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.07e2,
+    "Branch": "157",
+    "Description": "157 - White Cap - Louisville",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.08e2,
+    "Branch": "158",
+    "Description": "158 - White Cap - Cincinnati",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.09e2,
+    "Branch": "161",
+    "Description": "161 - White Cap - Fairfield (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.1e2,
+    "Branch": "163",
+    "Description": "163 - White Cap - Parlin (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.11e2,
+    "Branch": "164",
+    "Description": "164 - Kenseal/White Cap - Parsippany",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.12e2,
+    "Branch": "166",
+    "Description": "166 - White Cap - Bangor (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.13e2,
+    "Branch": "167",
+    "Description": "167 - White Cap - Augusta (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.14e2,
+    "Branch": "169",
+    "Description": "169 - White Cap - Portland (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.15e2,
+    "Branch": "170",
+    "Description": "170 - White Cap - Portsmouth (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.16e2,
+    "Branch": "171",
+    "Description": "171 - White Cap - West Lebanon (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.17e2,
+    "Branch": "186",
+    "Description": "186 - Kenseal/White Cap - Philadelphia",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.18e2,
+    "Branch": "187",
+    "Description": "187 - Kenseal/White Cap - Chantilly",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.19e2,
+    "Branch": "188",
+    "Description": "188 - Kenseal/White Cap - Beltsville",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.2e2,
+    "Branch": "189",
+    "Description": "189 - Kenseal/White Cap - Baltimore",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.21e2,
+    "Branch": "191",
+    "Description": "191 - White Cap - Roanoke (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.22e2,
+    "Branch": "192",
+    "Description": "192 - White Cap - Richmond (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.23e2,
+    "Branch": "195",
+    "Description": "195 - White Cap - Charlottesville (AHH) ,",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.24e2,
+    "Branch": "196",
+    "Description": "196 - White Cap - Bristol (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.25e2,
+    "Branch": "197",
+    "Description": "197 - White Cap - Charlotte (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.26e2,
+    "Branch": "200",
+    "Description": "200 - White Cap - Columbus, GA",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.27e2,
+    "Branch": "201",
+    "Description": "201 - White Cap - Atlanta",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.28e2,
+    "Branch": "203",
+    "Description": "203 - White Cap - Marietta",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.29e2,
+    "Branch": "204",
+    "Description": "204 - White Cap - Cumming",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.3e2,
+    "Branch": "205",
+    "Description": "205 - White Cap - Miami Gardens",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.31e2,
+    "Branch": "206",
+    "Description": "206 - White Cap - Gainesville, VA",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.32e2,
+    "Branch": "207",
+    "Description": "207 - White Cap - Hyattsville",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.33e2,
+    "Branch": "210",
+    "Description": "210 - White Cap - Chesapeake, VA",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.34e2,
+    "Branch": "211",
+    "Description": "211 - White Cap - Baltimore",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.35e2,
+    "Branch": "212",
+    "Description": "212 - White Cap - Springfield VA",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.36e2,
+    "Branch": "216",
+    "Description": "216 - White Cap - Gulfport",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.37e2,
+    "Branch": "218",
+    "Description": "218 - White Cap - Raleigh DC",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.38e2,
+    "Branch": "219",
+    "Description": "219 - White Cap - Charlotte",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.39e2,
+    "Branch": "220",
+    "Description": "220 - White Cap - Wilmington",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.4e2,
+    "Branch": "221",
+    "Description": "221 - White Cap - Fort Myers",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.41e2,
+    "Branch": "222",
+    "Description": "222 - White Cap - Gainesville",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.42e2,
+    "Branch": "223",
+    "Description": "223 - White Cap - Sarasota",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.43e2,
+    "Branch": "232",
+    "Description": "232 - White Cap - Pinellas",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.44e2,
+    "Branch": "233",
+    "Description": "233 - White Cap - Melbourne",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.45e2,
+    "Branch": "234",
+    "Description": "234 - White Cap - Jacksonville",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.46e2,
+    "Branch": "235",
+    "Description": "235 - White Cap - Orlando",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.47e2,
+    "Branch": "236",
+    "Description": "236 - White Cap - Pompano Beach",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.48e2,
+    "Branch": "237",
+    "Description": "237 - White Cap - Tampa",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.49e2,
+    "Branch": "238",
+    "Description": "238 - White Cap - Panama City",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.5e2,
+    "Branch": "239",
+    "Description": "239 - White Cap - Greenville",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.51e2,
+    "Branch": "240",
+    "Description": "240 - White Cap - New Orleans",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.52e2,
+    "Branch": "241",
+    "Description": "241 - White Cap - Geismar",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.53e2,
+    "Branch": "242",
+    "Description": "242 - White Cap - Macon",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.54e2,
+    "Branch": "243",
+    "Description": "243 - White Cap - Savannah",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.55e2,
+    "Branch": "244",
+    "Description": "244 - White Cap - Martinez",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.56e2,
+    "Branch": "247",
+    "Description": "247 - White Cap - College Park",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.57e2,
+    "Branch": "249",
+    "Description": "249 - White Cap - Lakeland",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.58e2,
+    "Branch": "250",
+    "Description": "250 - White Cap - Naples",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.59e2,
+    "Branch": "251",
+    "Description": "251 - White Cap - Miami",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.6e2,
+    "Branch": "252",
+    "Description": "252 - White Cap - Sanford",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.61e2,
+    "Branch": "257",
+    "Description": "257 - White Cap - Charleston",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.62e2,
+    "Branch": "258",
+    "Description": "258 - White Cap - Raleigh",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.63e2,
+    "Branch": "270",
+    "Description": "270 - White Cap - Greensboro",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.64e2,
+    "Branch": "271",
+    "Description": "271 - White Cap - Myrtle Beach",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.09e2,
+    "Branch": "274",
+    "Description": "274 - White Cap - North Canton",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.65e2,
+    "Branch": "290",
+    "Description": "290 - White Cap - Denton",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.66e2,
+    "Branch": "297",
+    "Description": "297 - White Cap - Norcross",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.67e2,
+    "Branch": "302",
+    "Description": "302 - White Cap - Anaheim",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.68e2,
+    "Branch": "303",
+    "Description": "303 - White Cap - Lake Charles",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.69e2,
+    "Branch": "305",
+    "Description": "305 - White Cap - Santa Ana RDC",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.7e2,
+    "Branch": "354",
+    "Description": "354 - White Cap - Highland (CSI)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.71e2,
+    "Branch": "355",
+    "Description": "355 - White Cap - Byron City (CSI)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.72e2,
+    "Branch": "356",
+    "Description": "356 - White Cap - Travers City (CSI)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.73e2,
+    "Branch": "374",
+    "Description": "374 - White Cap - Category Management",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.74e2,
+    "Branch": "382",
+    "Description": "382 - White Cap - Escondido",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.75e2,
+    "Branch": "383",
+    "Description": "383 - White Cap - Sun Valley",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.76e2,
+    "Branch": "401",
+    "Description": "401 - White Cap - Honolulu",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.77e2,
+    "Branch": "402",
+    "Description": "402 - White Cap - Hilo",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.78e2,
+    "Branch": "403",
+    "Description": "403 - White Cap - Kahului",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.79e2,
+    "Branch": "404",
+    "Description": "404 - White Cap - Kona",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.1e2,
+    "Branch": "440",
+    "Description": "440 - White Cap/All-Tex Supply",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.8e2,
+    "Branch": "441",
+    "Description": "441 - White Cap/All-Tex Supply",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.11e2,
+    "Branch": "442",
+    "Description": "442 - White Cap/ All-Tex Supply",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.12e2,
+    "Branch": "443",
+    "Description": "443 - White Cap/All-Tex Supply",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.81e2,
+    "Branch": "444",
+    "Description": "444 - White Cap/All-Tex Supply",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.13e2,
+    "Branch": "445",
+    "Description": "445 - White Cap/Titan Const.",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.14e2,
+    "Branch": "446",
+    "Description": "446 - White Cap/MasonPro Inc.",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.82e2,
+    "Branch": "501",
+    "Description": "501 - White Cap - Cheyenne",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.83e2,
+    "Branch": "504",
+    "Description": "504 - White Cap - Denver",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.84e2,
+    "Branch": "506",
+    "Description": "506 - White Cap - Tacoma",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.85e2,
+    "Branch": "507",
+    "Description": "507 - White Cap - Bellevue",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.86e2,
+    "Branch": "508",
+    "Description": "508 - White Cap - Ogden",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.87e2,
+    "Branch": "509",
+    "Description": "509 - White Cap - Chicopee (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.88e2,
+    "Branch": "510",
+    "Description": "510 - White Cap - New Haven (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.89e2,
+    "Branch": "511",
+    "Description": "511 - White Cap - Newington (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.9e2,
+    "Branch": "512",
+    "Description": "512 - White Cap - Stamford (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.91e2,
+    "Branch": "513",
+    "Description": "513 - White Cap - Albany (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.92e2,
+    "Branch": "514",
+    "Description": "514 - White Cap - Buffalo (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.93e2,
+    "Branch": "515",
+    "Description": "515 - White Cap - Henrietta (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.94e2,
+    "Branch": "516",
+    "Description": "516 - White Cap - Massena (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.95e2,
+    "Branch": "517",
+    "Description": "517 - White Cap - Plattsburgh (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.96e2,
+    "Branch": "518",
+    "Description": "518 - White Cap - Syracuse (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.97e2,
+    "Branch": "519",
+    "Description": "519 - White Cap - Williston (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.98e2,
+    "Branch": "520",
+    "Description": "520 - White Cap - Whitehall (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 1.99e2,
+    "Branch": "521",
+    "Description": "521 - White Cap - Rock Tavern (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.0e2,
+    "Branch": "523",
+    "Description": "523 - White Cap - Westfield (AHH)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.01e2,
+    "Branch": "550",
+    "Description": "550 - White Cap - Birmingham (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.02e2,
+    "Branch": "551",
+    "Description": "551 - White Cap - Huntsville (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.03e2,
+    "Branch": "552",
+    "Description": "552 - White Cap - Mobile (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.05e2,
+    "Branch": "554",
+    "Description": "554 - White Cap - Pensacola (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.06e2,
+    "Branch": "555",
+    "Description": "555 - White Cap - Tampa (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.07e2,
+    "Branch": "556",
+    "Description": "556 - White Cap - Orlando (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.08e2,
+    "Branch": "557",
+    "Description": "557 - White Cap - Jacksonville (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.09e2,
+    "Branch": "558",
+    "Description": "558 - White Cap - Fort Lauderdale (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.1e2,
+    "Branch": "559",
+    "Description": "559 - White Cap - Miami (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.11e2,
+    "Branch": "560",
+    "Description": "560 - White Cap - Atlanta (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.12e2,
+    "Branch": "561",
+    "Description": "561 - White Cap - Savannah (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.13e2,
+    "Branch": "562",
+    "Description": "562 - White Cap - Chicago (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.14e2,
+    "Branch": "563",
+    "Description": "563 - White Cap - Louisville (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.15e2,
+    "Branch": "564",
+    "Description": "564 - White Cap - New Orleans (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.16e2,
+    "Branch": "565",
+    "Description": "565 - White Cap - Baton Rouge (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.17e2,
+    "Branch": "566",
+    "Description": "566 - White Cap - Detroit (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.18e2,
+    "Branch": "567",
+    "Description": "567 - White Cap - Gulfport (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.19e2,
+    "Branch": "568",
+    "Description": "568 - White Cap - Charlotte (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.2e2,
+    "Branch": "569",
+    "Description": "569 - White Cap - Greensboro (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.21e2,
+    "Branch": "570",
+    "Description": "570 - White Cap - Raleigh (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.22e2,
+    "Branch": "571",
+    "Description": "571 - White Cap - Wilmington (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.23e2,
+    "Branch": "572",
+    "Description": "572 - White Cap - Cincinnati (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.24e2,
+    "Branch": "573",
+    "Description": "573 - White Cap - Columbus (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.25e2,
+    "Branch": "574",
+    "Description": "574 - White Cap - Oklahoma City (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.26e2,
+    "Branch": "575",
+    "Description": "575 - White Cap - Charleston SC (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.27e2,
+    "Branch": "576",
+    "Description": "576 - White Cap - Greenville (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.28e2,
+    "Branch": "577",
+    "Description": "577 - White Cap - Columbia (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.29e2,
+    "Branch": "578",
+    "Description": "578 - White Cap - Chattanooga (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.3e2,
+    "Branch": "579",
+    "Description": "579 - White Cap - Memphis (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.31e2,
+    "Branch": "580",
+    "Description": "580 - White Cap - Nashville (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.32e2,
+    "Branch": "581",
+    "Description": "581 - White Cap - Knoxville (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.33e2,
+    "Branch": "582",
+    "Description": "582 - White Cap - Dallas (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.34e2,
+    "Branch": "583",
+    "Description": "583 - White Cap - Ft. Worth (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.35e2,
+    "Branch": "584",
+    "Description": "584 - White Cap - Houston (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.36e2,
+    "Branch": "585",
+    "Description": "585 - White Cap - Austin (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.37e2,
+    "Branch": "586",
+    "Description": "586 - White Cap - San Antonio (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.38e2,
+    "Branch": "587",
+    "Description": "587 - White Cap - Corpus Christi (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.39e2,
+    "Branch": "588",
+    "Description": "588 - White Cap - Washington DC (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.4e2,
+    "Branch": "589",
+    "Description": "589 - White Cap - Richmond (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.41e2,
+    "Branch": "590",
+    "Description": "590 - White Cap - Birmingham (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.42e2,
+    "Branch": "591",
+    "Description": "591 - White Cap - Chesapeake Bay (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.43e2,
+    "Branch": "592",
+    "Description": "592 - White Cap - Charleston WV (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.44e2,
+    "Branch": "593",
+    "Description": "593 - White Cap - Indianapolis (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.45e2,
+    "Branch": "594",
+    "Description": "594 - White Cap - Birmingham (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.46e2,
+    "Branch": "596",
+    "Description": "596 - White Cap - Birmingham (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.47e2,
+    "Branch": "598",
+    "Description": "598 - White Cap - Little Rock (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.48e2,
+    "Branch": "599",
+    "Description": "599 - White Cap - Cleveland OH (RT)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.49e2,
+    "Branch": "600",
+    "Description": "600 - White Cap - Joliet",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.5e2,
+    "Branch": "601",
+    "Description": "601 - White Cap - Griffith",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.51e2,
+    "Branch": "602",
+    "Description": "602 - White Cap - Valparaiso",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.52e2,
+    "Branch": "604",
+    "Description": "604 - White Cap - Downtown Chicago",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.53e2,
+    "Branch": "605",
+    "Description": "605 - White Cap - Elk Grove Village",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.54e2,
+    "Branch": "606",
+    "Description": "606 - White Cap - Gilberts",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.55e2,
+    "Branch": "654",
+    "Description": "654 - White Cap/Border Yuma",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.56e2,
+    "Branch": "655",
+    "Description": "655 - White Cap/Border Tucson",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.57e2,
+    "Branch": "656",
+    "Description": "656 - White Cap/Border Flagstaff",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.58e2,
+    "Branch": "657",
+    "Description": "657 - White Cap/Border Phoenix",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.59e2,
+    "Branch": "658",
+    "Description": "658 - White Cap/Border Las Vegas",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.6e2,
+    "Branch": "659",
+    "Description": "659 - White Cap/Zia Concrete",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.61e2,
+    "Branch": "660",
+    "Description": "660 - White Cap/AdvSpec Chico",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.62e2,
+    "Branch": "661",
+    "Description": "661 - White Cap/AdvSpec Loomis",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.63e2,
+    "Branch": "662",
+    "Description": "662 - White Cap/ASpec Sacramento",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.64e2,
+    "Branch": "663",
+    "Description": "663 - White Cap/Constar Clovis",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.65e2,
+    "Branch": "664",
+    "Description": "664 - White Cap/Marvel Phoenix",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.66e2,
+    "Branch": "665",
+    "Description": "665 - White Cap/Marvel Chandler",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.67e2,
+    "Branch": "667",
+    "Description": "667 - White Cap/Marvel Mesa",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.68e2,
+    "Branch": "668",
+    "Description": "668 - White Cap/Marvel Phoenix",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.69e2,
+    "Branch": "669",
+    "Description": "669 - White Cap - Champaign",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.7e2,
+    "Branch": "670",
+    "Description": "670 - White Cap - Omaha (S15)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.71e2,
+    "Branch": "671",
+    "Description": "671 - White Cap - Rock Island (S13)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.72e2,
+    "Branch": "672",
+    "Description": "672 - White Cap - Cedar Rapids (S14)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.73e2,
+    "Branch": "673",
+    "Description": "673 - White Cap - Dubuque (S18)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.74e2,
+    "Branch": "674",
+    "Description": "674 - White Cap - Rockford (S17)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.75e2,
+    "Branch": "675",
+    "Description": "675 - White Cap - Waterloo (S12)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.76e2,
+    "Branch": "676",
+    "Description": "676 - White Cap - Grand Island (S16)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.77e2,
+    "Branch": "677",
+    "Description": "677 - White Cap - Eldridge (S24)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.78e2,
+    "Branch": "678",
+    "Description": "678 - White Cap - Des Moines (S11)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.79e2,
+    "Branch": "679",
+    "Description": "679 - White Cap - Dist Center Maquoketa (S32)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.8e2,
+    "Branch": "680",
+    "Description": "680 - White Cap/ConcreteAcc",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.81e2,
+    "Branch": "681",
+    "Description": "681 - White Cap/CES Silt",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.82e2,
+    "Branch": "682",
+    "Description": "682 - White Cap/CES Durango",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.83e2,
+    "Branch": "683",
+    "Description": "683 - White Cap/CES Windsor",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.84e2,
+    "Branch": "684",
+    "Description": "684 - White Cap/CES CO Springs",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.15e2,
+    "Branch": "685",
+    "Description": "685 - White Cap/BW - New Berlin",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.85e2,
+    "Branch": "686",
+    "Description": "686 - White Cap/BW St Paul",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.86e2,
+    "Branch": "687",
+    "Description": "687 - White Cap - Sioux Falls",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.87e2,
+    "Branch": "689",
+    "Description": "689 - White Cap/BW Rochester",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.88e2,
+    "Branch": "690",
+    "Description": "690 - White Cap/BW Bismarck",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.89e2,
+    "Branch": "691",
+    "Description": "691 - White Cap/BW Fargo",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.9e2,
+    "Branch": "692",
+    "Description": "692 - White Cap/BW Green Bay",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.91e2,
+    "Branch": "693",
+    "Description": "693 - White Cap/BW Elk River",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.92e2,
+    "Branch": "694",
+    "Description": "694 - White Cap/BW St Cloud",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.93e2,
+    "Branch": "695",
+    "Description": "695 - White Cap/BW Madison",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.94e2,
+    "Branch": "696",
+    "Description": "696 - White Cap/BW Duluth MN",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.95e2,
+    "Branch": "697",
+    "Description": "697 - White Cap/BW Weston WI",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.16e2,
+    "Branch": "698",
+    "Description": "698 - White Cap/BW - Baxter MN",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.96e2,
+    "Branch": "699",
+    "Description": "699 - White Cap/BW Appleton",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.97e2,
+    "Branch": "700",
+    "Description": "700 - White Cap/Marvel Peoria",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.98e2,
+    "Branch": "702",
+    "Description": "702 - White Cap - Gilbert",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 2.99e2,
+    "Branch": "703",
+    "Description": "703 - White Cap - Aledo",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.0e2,
+    "Branch": "704",
+    "Description": "704 - White Cap - Killeen",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.01e2,
+    "Branch": "706",
+    "Description": "706 - White Cap - Frisco",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.02e2,
+    "Branch": "707",
+    "Description": "707 - White Cap - Austin IC",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.03e2,
+    "Branch": "708",
+    "Description": "708 - White Cap - Pharr IC",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.04e2,
+    "Branch": "709",
+    "Description": "709 - White Cap - San Antonio IC",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.05e2,
+    "Branch": "710",
+    "Description": "710 - White Cap - Fort Worth",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.06e2,
+    "Branch": "711",
+    "Description": "711 - White Cap - Irving",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.07e2,
+    "Branch": "712",
+    "Description": "712 - White Cap - Allen",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.08e2,
+    "Branch": "713",
+    "Description": "713 - White Cap - Austin",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.09e2,
+    "Branch": "714",
+    "Description": "714 - White Cap - San Antonio",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.1e2,
+    "Branch": "716",
+    "Description": "716 - White Cap - Mesquite",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.11e2,
+    "Branch": "717",
+    "Description": "717 - White Cap - La Porte",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.12e2,
+    "Branch": "718",
+    "Description": "718 - White Cap - Beaumont",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.13e2,
+    "Branch": "719",
+    "Description": "719 - White Cap - Houston Limo",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.14e2,
+    "Branch": "722",
+    "Description": "722 - White Cap - Baytown",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.15e2,
+    "Branch": "723",
+    "Description": "723 - White Cap - College Station",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.16e2,
+    "Branch": "735",
+    "Description": "735 - White Cap - Venus",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.17e2,
+    "Branch": "759",
+    "Description": "759 - White Cap - Corpus Christi",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.18e2,
+    "Branch": "777",
+    "Description": "777 - White Cap - Dallas DC",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.19e2,
+    "Branch": "779",
+    "Description": "779 - White Cap - Pittsburgh",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.17e2,
+    "Branch": "780",
+    "Description": "780 - White Cap - Newark CA",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.18e2,
+    "Branch": "781",
+    "Description": "781 - White Cap - Commack",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.2e2,
+    "Branch": "782",
+    "Description": "782 - White Cap - Katy",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.21e2,
+    "Branch": "783",
+    "Description": "783 - White Cap/CW Washington MO",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.22e2,
+    "Branch": "784",
+    "Description": "784 - White Cap/CW Indianapolis",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.23e2,
+    "Branch": "785",
+    "Description": "785 - White Cap/CW S Bend",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.24e2,
+    "Branch": "786",
+    "Description": "786 - White Cap - Columbia",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.25e2,
+    "Branch": "788",
+    "Description": "788 - White Cap/CW Collinsvil IL",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.26e2,
+    "Branch": "789",
+    "Description": "789 - White Cap/CW Springfield MO",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.27e2,
+    "Branch": "793",
+    "Description": "793 - White Cap/CW St Charles MO",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.28e2,
+    "Branch": "794",
+    "Description": "794 - White Cap/CW K City MO DC",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.29e2,
+    "Branch": "795",
+    "Description": "795 - White Cap/CW Louisville",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.3e2,
+    "Branch": "796",
+    "Description": "796 - White Cap - Toledo",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.31e2,
+    "Branch": "797",
+    "Description": "797 - White Cap/CW Olathe",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.32e2,
+    "Branch": "798",
+    "Description": "798 - White Cap/CW Wichita",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.33e2,
+    "Branch": "799",
+    "Description": "799 - White Cap/CW Kansas City KS",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.19e2,
+    "Branch": "814",
+    "Description": "814 - White Cap/Holdfast - Dayton",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.43e2,
+    "Branch": "820-WC-San-Bernardino-CA-(HUB)",
+    "Description": "820 - WC - San Bernardino CA (HUB)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.44e2,
+    "Branch": "821-WC-San-Bernardino-Distribution-CA-(HUB)",
+    "Description": "821 - WC - San Bernardino Distribution A (HUB)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.45e2,
+    "Branch": "822-WC-San-Bernardino-Rental-CA-(HUB)",
+    "Description": "822 - WC - San Bernardino Rental CA HUB)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.46e2,
+    "Branch": "823-WC-San-Bernardino-Fabrication-CA-(HUB)",
+    "Description": "823 - WC - San Bernardino Fabrication A (HUB)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.47e2,
+    "Branch": "824-WC-Pomona-CA-(HUB)",
+    "Description": "824 - WC - Pomona CA (HUB)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.48e2,
+    "Branch": "827-WC-Santa-Ana-CA-(HUB)",
+    "Description": "827 - WC - Santa Ana CA (HUB)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.49e2,
+    "Branch": "828-WC-Santee-CA-(HUB)",
+    "Description": "828 - WC - Santee CA (HUB)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.5e2,
+    "Branch": "829-WC-National-City-CA-(HUB)",
+    "Description": "829 - WC - National City CA (HUB)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.51e2,
+    "Branch": "830-WC-San-Marcos-CA-(HUB)",
+    "Description": "830 - WC - San Marcos CA (HUB)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.52e2,
+    "Branch": "831-WC-Glendale-CA-(HUB)",
+    "Description": "831 - WC - Glendale CA (HUB)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.53e2,
+    "Branch": "832-WC-Paramount-CA-(HUB)",
+    "Description": "832 - WC - Paramount CA (HUB)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.54e2,
+    "Branch": "833-WC-Ventura-CA-(HUB)",
+    "Description": "833 - WC - Ventura CA (HUB)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.55e2,
+    "Branch": "834-WC-Lake-Havasu-City-AZ-(HUB)",
+    "Description": "834 - WC - Lake Havasu City AZ (HUB)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.56e2,
+    "Branch": "835-WC-Bakersfield CA (HUB)",
+    "Description": "835 - WC - Bakersfield CA (HUB)",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.2e2,
+    "Branch": "836",
+    "Description": "836 - White Cap/CMI - Atlanta",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.21e2,
+    "Branch": "837",
+    "Description": "837 - White Cap/CMI - Orlando",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.22e2,
+    "Branch": "839",
+    "Description": "839 - White Cap/CMI - Jacksonville",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.23e2,
+    "Branch": "844",
+    "Description": "844 - White Cap/CMI - Pierce",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.24e2,
+    "Branch": "847",
+    "Description": "847 - White Cap/CMI - Tampa",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.25e2,
+    "Branch": "848",
+    "Description": "848 - White Cap/CMI - Montgomery",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.34e2,
+    "Branch": "849",
+    "Description": "849 - White Cap CMI Nashville",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.35e2,
+    "Branch": "850",
+    "Description": "850 - White Cap CMI Huntsville",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.36e2,
+    "Branch": "851",
+    "Description": "851 - White Cap - Conroe",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.37e2,
+    "Branch": "853",
+    "Description": "853 - White Cap - Nashville",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.38e2,
+    "Branch": "858",
+    "Description": "858 - White Cap - Capitol Heights",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.26e2,
+    "Branch": "860",
+    "Description": "860 - White Cap/CMI - Birmingham",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.39e2,
+    "Branch": "861",
+    "Description": "861 - White Cap CMI Houston",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.27e2,
+    "Branch": "862",
+    "Description": "862 - White Cap/CMI - Mobile",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.28e2,
+    "Branch": "864",
+    "Description": "864 - White Cap/CMI Jackson MS",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.5e2,
+    "Branch": "877",
+    "Description": "877 - White Cap - Woodinville Valley Supply",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.52e2,
+    "Branch": "879",
+    "Description": "879 - White Cap - Silverdale Valley Supply",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.58e2,
+    "Branch": "884",
+    "Description": "884 - White Cap/Reno Corporate Signal Hill, CA",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.55e2,
+    "Branch": "885",
+    "Description": "885 - White Cap/Reno Burbank, CA",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.56e2,
+    "Branch": "886",
+    "Description": "886 - White Cap/Reno Signal Hill, CA",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.57e2,
+    "Branch": "887",
+    "Description": "887 - White Cap/Reno Riverside, CA",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.06e2,
+    "Branch": "893",
+    "Description": "893 - White Cap/Diamond Tool - Bristol",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.07e2,
+    "Branch": "894",
+    "Description": "894 - White Cap/Diamond Tool - Philadelphia",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.08e2,
+    "Branch": "895",
+    "Description": "895 - White Cap/Diamond Tool - Edgewater",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.51e2,
+    "Branch": "897",
+    "Description": "897 - White Cap - Tumwater Valley Supply",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.53e2,
+    "Branch": "898",
+    "Description": "898 - White Cap - Ellensburg Valley Supply",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.05e2,
+    "Branch": "899",
+    "Description": "899 - White Cap - Puyallup",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.54e2,
+    "Branch": "931",
+    "Description": "931 - White Cap - Moses Lake Valley Supply",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.4e2,
+    "Branch": "932",
+    "Description": "932 - White Cap - Lafayette",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.41e2,
+    "Branch": "955",
+    "Description": "955 - White Cap - West Palm",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 5.29e2,
+    "Branch": "963",
+    "Description": "963 - White Cap/CW - Kansas City MO",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.42e2,
+    "Branch": "990",
+    "Description": "990 - White Cap - Corporate Finance",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.57e2,
+    "Branch": "999-EAST",
+    "Description": "999 EAST",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.58e2,
+    "Branch": "999-NATIONAL",
+    "Description": "999 NATIONAL",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.59e2,
+    "Branch": "999-WEST",
+    "Description": "999 WEST",
+    "Ranking": 2.0
+  },
+  {
+    "ID": 3.6e2,
+    "Branch": "083-FIELD-OPERATIONS",
+    "Description": "083 - FIELD OPERATIONS",
+    "Ranking": 3.0
+  },
+  {
+    "ID": 3.61e2,
+    "Branch": "083-OPERATIONS-ADMIN",
+    "Description": "083 - OPERATIONS ADMIN",
+    "Ranking": 3.0
+  },
+  {
+    "ID": 3.62e2,
+    "Branch": "893 - Diamond Tool",
+    "Description": "893 - Diamond Tool",
+    "Ranking": 4.0
+  },
+  {
+    "ID": 3.63e2,
+    "Branch": "5877-Best-Materials",
+    "Description": "5877 - Best Materials",
+    "Ranking": 6.0
+  },
+  {
+    "ID": 3.64e2,
+    "Branch": "8002-Masonpro-Inc",
+    "Description": "8002 - Masonpro Inc",
+    "Ranking": 7.0
+  },
+  {
+    "ID": 3.65e2,
+    "Branch": "A01-All-Tex-Supply",
+    "Description": "A01 - All-Tex Supply",
+    "Ranking": 8.0
+  },
+  {
+    "ID": 3.66e2,
+    "Branch": "A03-All-Tex-Supply",
+    "Description": "A03 - All-Tex Supply",
+    "Ranking": 8.0
+  },
+  {
+    "ID": 3.67e2,
+    "Branch": "B20-Border-Con",
+    "Description": "B20 - Border Con",
+    "Ranking": 9.0
+  },
+  {
+    "ID": 3.68e2,
+    "Branch": "001-Brafasco-(CAN)-Vaughan",
+    "Description": "001 - Brafasco (CAN) Vaughan",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.69e2,
+    "Branch": "002-Brafasco-(CAN)-Orangeville",
+    "Description": "002 - Brafasco (CAN) Orangeville",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.7e2,
+    "Branch": "003-Brafasco-(CAN)-Newmarket",
+    "Description": "003 - Brafasco (CAN) Newmarket",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.71e2,
+    "Branch": "004-Brafasco-(CAN)-Barrie",
+    "Description": "004 - Brafasco (CAN) Barrie",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.72e2,
+    "Branch": "005-Brafasco-(CAN)-Peterborough",
+    "Description": "005 - Brafasco (CAN) Peterborough",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.73e2,
+    "Branch": "006-Brafasco-(CAN)-Bolton",
+    "Description": "006 - Brafasco (CAN) Bolton",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.74e2,
+    "Branch": "007-Brafasco-(CAN)-Concord",
+    "Description": "007 - Brafasco (CAN) Concord",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.75e2,
+    "Branch": "008-Brafasco-(CAN)-Oro-Medonte",
+    "Description": "008 - Brafasco (CAN) Oro-Medonte",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.76e2,
+    "Branch": "009-Brafasco-(CAN)-Belleville",
+    "Description": "009 - Brafasco (CAN) Belleville",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.77e2,
+    "Branch": "010-Brafasco-(CAN)-Kingston",
+    "Description": "010 - Brafasco (CAN) Kingston",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.78e2,
+    "Branch": "012-Brafasco-(CAN)-Etobicoke",
+    "Description": "012 - Brafasco (CAN) Etobicoke",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.79e2,
+    "Branch": "013-Brafasco-(CAN)-Burlington",
+    "Description": "013 - Brafasco (CAN) Burlington",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.8e2,
+    "Branch": "014-Brafasco-(CAN)-Cambridge",
+    "Description": "014 - Brafasco (CAN) Cambridge",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.81e2,
+    "Branch": "015-Brafasco-(CAN)-Mississauga",
+    "Description": "015 - Brafasco (CAN) Mississauga",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.82e2,
+    "Branch": "016-Brafasco-(CAN)-Lindsay",
+    "Description": "016 - Brafasco (CAN) Lindsay",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.83e2,
+    "Branch": "017-Brafasco-(CAN)-Rexdale",
+    "Description": "017 - Brafasco (CAN) Rexdale",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.84e2,
+    "Branch": "018-Brafasco-(CAN)-London",
+    "Description": "018 - Brafasco (CAN) London",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.85e2,
+    "Branch": "019-Brafasco-(CAN)-Kitchener",
+    "Description": "019 - Brafasco (CAN) Kitchener",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.86e2,
+    "Branch": "021-Brafasco-(CAN)-Oakville",
+    "Description": "021 - Brafasco (CAN) Oakville",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.87e2,
+    "Branch": "022-Brafasco-(CAN)-Markham",
+    "Description": "022 - Brafasco (CAN) Markham",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.88e2,
+    "Branch": "024-Brafasco-(CAN)-Guelph",
+    "Description": "024 - Brafasco (CAN) Guelph",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.89e2,
+    "Branch": "026-Brafasco-(CAN)-Pickering",
+    "Description": "026 - Brafasco (CAN) Pickering",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.9e2,
+    "Branch": "027-Brafasco-(CAN)-Brantford",
+    "Description": "027 - Brafasco (CAN) Brantford",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.91e2,
+    "Branch": "029-Brafasco-(CAN)-Vaughan",
+    "Description": "029 - Brafasco (CAN) Vaughan",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.92e2,
+    "Branch": "030-Brafasco-(CAN)-Niagara-Falls",
+    "Description": "030 - Brafasco (CAN) Niagara Falls",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.93e2,
+    "Branch": "031-Brafasco-(CAN)-Ottawa",
+    "Description": "031 - Brafasco (CAN) Ottawa",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.94e2,
+    "Branch": "032-Brafasco-(CAN)-Sarnia",
+    "Description": "032 - Brafasco (CAN) Sarnia",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.95e2,
+    "Branch": "033-Brafasco-(CAN)-Saint-Catharines",
+    "Description": "033 - Brafasco (CAN) Saint Catharines",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.96e2,
+    "Branch": "034-Brafasco-(CAN)-Stoney-Creek",
+    "Description": "034 - Brafasco (CAN) Stoney Creek",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.97e2,
+    "Branch": "035-Brafasco-(CAN)-Vancouver",
+    "Description": "035 - Brafasco (CAN) Vancouver",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.98e2,
+    "Branch": "040-Brafasco-(CAN)-Ottawa",
+    "Description": "040 - Brafasco (CAN) Ottawa",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 3.99e2,
+    "Branch": "041-Brafasco-(CAN)-Calgary",
+    "Description": "041 - Brafasco (CAN) Calgary",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 4.0e2,
+    "Branch": "044-Brafasco-(CAN)-Surrey",
+    "Description": "044 - Brafasco (CAN) Surrey",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 4.01e2,
+    "Branch": "045-Brafasco-(CAN)-Toronto",
+    "Description": "045 - Brafasco (CAN) Toronto",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 4.02e2,
+    "Branch": "046-Brafasco-(CAN)-Fredericton",
+    "Description": "046 - Brafasco (CAN) Fredericton",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 4.03e2,
+    "Branch": "047-Brafasco-(CAN)-Oldcastle",
+    "Description": "047 - Brafasco (CAN) Oldcastle",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 4.04e2,
+    "Branch": "048-Brafasco-(CAN)-Tiverton",
+    "Description": "048 - Brafasco (CAN) Tiverton",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 4.05e2,
+    "Branch": "100-Brafasco-(CAN)-Brampton",
+    "Description": "100 - Brafasco (CAN) Brampton",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 4.06e2,
+    "Branch": "803-Brafasco-(CAN)-Burnaby",
+    "Description": "803 - Brafasco (CAN) Burnaby",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 4.07e2,
+    "Branch": "806-Brafasco-(CAN)-Sudbury",
+    "Description": "806 - Brafasco (CAN) Sudbury",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 4.08e2,
+    "Branch": "808-Brafasco-(CAN)-Scarborough",
+    "Description": "808 - Brafasco (CAN) Scarborough",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 4.09e2,
+    "Branch": "811-Brafasco-(CAN)-Toronto",
+    "Description": "811 - Brafasco (CAN) Toronto",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 4.1e2,
+    "Branch": "812-Brafasco-(CAN)-Charlottetown",
+    "Description": "812 - Brafasco (CAN) Charlottetown",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 4.11e2,
+    "Branch": "813-Brafasco-(CAN)-Dartmouth",
+    "Description": "813 - Brafasco (CAN) Dartmouth",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 4.12e2,
+    "Branch": "816-Brafasco-(CAN)-Moncton",
+    "Description": "816 - Brafasco (CAN) Moncton",
+    "Ranking": 1.0e1
+  },
+  {
+    "ID": 4.13e2,
+    "Branch": "405-Brock-White",
+    "Description": "405 - Brock White",
+    "Ranking": 1.1e1
+  },
+  {
+    "ID": 4.14e2,
+    "Branch": "444-Brock-White",
+    "Description": "444 - Brock White",
+    "Ranking": 1.1e1
+  },
+  {
+    "ID": 4.15e2,
+    "Branch": "470-Brock-White",
+    "Description": "470 - Brock White",
+    "Ranking": 1.1e1
+  },
+  {
+    "ID": 4.16e2,
+    "Branch": "730-Brock-White-(CAN)-Winnipeg",
+    "Description": "730 - Brock White (CAN) Winnipeg",
+    "Ranking": 1.1e1
+  },
+  {
+    "ID": 4.17e2,
+    "Branch": "750-Brock-White-(CAN)-Regina",
+    "Description": "750 - Brock White (CAN) Regina",
+    "Ranking": 1.1e1
+  },
+  {
+    "ID": 4.18e2,
+    "Branch": "760-Brock-White-(CAN)-Saskatoon",
+    "Description": "760 - Brock White (CAN) Saskatoon",
+    "Ranking": 1.1e1
+  },
+  {
+    "ID": 4.19e2,
+    "Branch": "765-Brock-White-(CAN)-Lloydminster",
+    "Description": "765 - Brock White (CAN) Lloydminster",
+    "Ranking": 1.1e1
+  },
+  {
+    "ID": 4.2e2,
+    "Branch": "770-Brock-White-(CAN)-Thunder-Bay",
+    "Description": "770 - Brock White (CAN) Thunder Bay",
+    "Ranking": 1.1e1
+  },
+  {
+    "ID": 4.21e2,
+    "Branch": "800-Brock-White-(CAN)-Edmonton",
+    "Description": "800 - Brock White (CAN) Edmonton",
+    "Ranking": 1.1e1
+  },
+  {
+    "ID": 4.22e2,
+    "Branch": "810-Brock-White-(CAN)-Calgary",
+    "Description": "810 - Brock White (CAN) Calgary",
+    "Ranking": 1.1e1
+  },
+  {
+    "ID": 4.23e2,
+    "Branch": "835-Brock-White-(CAN)-Kelowna",
+    "Description": "835 - Brock White (CAN) Kelowna",
+    "Ranking": 1.1e1
+  },
+  {
+    "ID": 4.24e2,
+    "Branch": "840-Brock-White-(CAN)-Victoria",
+    "Description": "840 - Brock White (CAN) Victoria",
+    "Ranking": 1.1e1
+  },
+  {
+    "ID": 4.25e2,
+    "Branch": "850-Brock-White-(CAN)-Burnaby",
+    "Description": "850 - Brock White (CAN) Burnaby",
+    "Ranking": 1.1e1
+  },
+  {
+    "ID": 4.26e2,
+    "Branch": "855-Brock-White-(CAN)-Langley",
+    "Description": "855 - Brock White (CAN) Langley",
+    "Ranking": 1.1e1
+  },
+  {
+    "ID": 4.27e2,
+    "Branch": "865-Brock-White-(CAN)-Coquitlam",
+    "Description": "865 - Brock White (CAN) Coquitlam",
+    "Ranking": 1.1e1
+  },
+  {
+    "ID": 4.28e2,
+    "Branch": "870-Brock-White-(CAN)-Prince-George",
+    "Description": "870 - Brock White (CAN) Prince George",
+    "Ranking": 1.1e1
+  },
+  {
+    "ID": 4.29e2,
+    "Branch": "BWC-2510",
+    "Description": "BWC - 2510",
+    "Ranking": 1.2e1
+  },
+  {
+    "ID": 4.3e2,
+    "Branch": "3812-Carter-Waters",
+    "Description": "3812 - Carter Waters",
+    "Ranking": 1.3e1
+  },
+  {
+    "ID": 4.32e2,
+    "Branch": "C13-Carter-Waters",
+    "Description": "C13 - Carter Waters",
+    "Ranking": 1.3e1
+  },
+  {
+    "ID": 4.33e2,
+    "Branch": "C32-Carter-Waters",
+    "Description": "C32 - Carter Waters",
+    "Ranking": 1.3e1
+  },
+  {
+    "ID": 4.34e2,
+    "Branch": "C42-Carter-Waters",
+    "Description": "C42 - Carter Waters",
+    "Ranking": 1.3e1
+  },
+  {
+    "ID": 4.36e2,
+    "Branch": "C44-Carter-Waters",
+    "Description": "C44 - Carter Waters",
+    "Ranking": 1.3e1
+  },
+  {
+    "ID": 4.37e2,
+    "Branch": "C46-Holdfast-Tech",
+    "Description": "C46 - Holdfast Tech",
+    "Ranking": 1.3e1
+  },
+  {
+    "ID": 4.39e2,
+    "Branch": "CW-527",
+    "Description": "CW-527",
+    "Ranking": 1.3e1
+  },
+  {
+    "ID": 4.4e2,
+    "Branch": "CW-528",
+    "Description": "CW-528",
+    "Ranking": 1.3e1
+  },
+  {
+    "ID": 4.41e2,
+    "Branch": "CW-703",
+    "Description": "CW-703",
+    "Ranking": 1.3e1
+  },
+  {
+    "ID": 4.42e2,
+    "Branch": "CW-704",
+    "Description": "CW-704",
+    "Ranking": 1.3e1
+  },
+  {
+    "ID": 4.43e2,
+    "Branch": "CW-705",
+    "Description": "CW-705",
+    "Ranking": 1.3e1
+  },
+  {
+    "ID": 4.44e2,
+    "Branch": "CW-708",
+    "Description": "CW-708",
+    "Ranking": 1.3e1
+  },
+  {
+    "ID": 4.45e2,
+    "Branch": "CW-712",
+    "Description": "CW-712",
+    "Ranking": 1.3e1
+  },
+  {
+    "ID": 4.46e2,
+    "Branch": "CW-716",
+    "Description": "CW-716",
+    "Ranking": 1.3e1
+  },
+  {
+    "ID": 4.47e2,
+    "Branch": "CW-719",
+    "Description": "CW-719",
+    "Ranking": 1.3e1
+  },
+  {
+    "ID": 4.48e2,
+    "Branch": "CW-724",
+    "Description": "CW-724",
+    "Ranking": 1.3e1
+  },
+  {
+    "ID": 4.49e2,
+    "Branch": "CW-727",
+    "Description": "CW-727",
+    "Ranking": 1.3e1
+  },
+  {
+    "ID": 4.5e2,
+    "Branch": "CW-728",
+    "Description": "CW-728",
+    "Ranking": 1.3e1
+  },
+  {
+    "ID": 4.51e2,
+    "Branch": "CW-731",
+    "Description": "CW-731",
+    "Ranking": 1.3e1
+  },
+  {
+    "ID": 4.52e2,
+    "Branch": "CW-732",
+    "Description": "CW-732",
+    "Ranking": 1.3e1
+  },
+  {
+    "ID": 4.53e2,
+    "Branch": "CW-ADMIN",
+    "Description": "CW-ADMIN",
+    "Ranking": 1.3e1
+  },
+  {
+    "ID": 4.54e2,
+    "Branch": "CMI01-Construct-Mat",
+    "Description": "CMI01 - Construct Mat",
+    "Ranking": 1.4e1
+  },
+  {
+    "ID": 4.55e2,
+    "Branch": "CMI02-Construct-Mat",
+    "Description": "CMI02 - Construct Mat",
+    "Ranking": 1.4e1
+  },
+  {
+    "ID": 4.56e2,
+    "Branch": "CMI03-Construct-Mat",
+    "Description": "CMI03 - Construct Mat",
+    "Ranking": 1.4e1
+  },
+  {
+    "ID": 4.57e2,
+    "Branch": "CMI05-Construct-Mat",
+    "Description": "CMI05 - Construct Mat",
+    "Ranking": 1.4e1
+  },
+  {
+    "ID": 4.58e2,
+    "Branch": "CMI06-Construct-Mat",
+    "Description": "CMI06 - Construct Mat",
+    "Ranking": 1.4e1
+  },
+  {
+    "ID": 4.59e2,
+    "Branch": "CMI07-Construct-Mat",
+    "Description": "CMI07 - Construct Mat",
+    "Ranking": 1.4e1
+  },
+  {
+    "ID": 4.61e2,
+    "Branch": "CMI11-Construct-Mat",
+    "Description": "CMI11 - Construct Mat",
+    "Ranking": 1.4e1
+  },
+  {
+    "ID": 4.62e2,
+    "Branch": "CMI18-Construct-Mat",
+    "Description": "CMI18 - Construct Mat",
+    "Ranking": 1.4e1
+  },
+  {
+    "ID": 4.63e2,
+    "Branch": "CMI20-Construct-Mat",
+    "Description": "CMI20 - Construct Mat",
+    "Ranking": 1.4e1
+  },
+  {
+    "ID": 4.64e2,
+    "Branch": "CMI21-Construct-Mat",
+    "Description": "CMI21 - Construct Mat",
+    "Ranking": 1.4e1
+  },
+  {
+    "ID": 4.65e2,
+    "Branch": "CMI22-Construct-Mat",
+    "Description": "CMI22 - Construct Mat",
+    "Ranking": 1.4e1
+  },
+  {
+    "ID": 4.66e2,
+    "Branch": "CSG-3842",
+    "Description": "CSG-3842",
+    "Ranking": 1.5e1
+  },
+  {
+    "ID": 4.67e2,
+    "Branch": "AB015-NCA",
+    "Description": "NCA - AB015",
+    "Ranking": 1.6e1
+  },
+  {
+    "ID": 4.68e2,
+    "Branch": "AB017-NCA",
+    "Description": "NCA - AB017",
+    "Ranking": 1.6e1
+  },
+  {
+    "ID": 4.69e2,
+    "Branch": "AB018-NCA",
+    "Description": "NCA - AB018",
+    "Ranking": 1.6e1
+  },
+  {
+    "ID": 4.7e2,
+    "Branch": "AB019-NCA",
+    "Description": "NCA - AB019",
+    "Ranking": 1.6e1
+  },
+  {
+    "ID": 4.71e2,
+    "Branch": "AB020-NCA",
+    "Description": "NCA - AB020",
+    "Ranking": 1.6e1
+  },
+  {
+    "ID": 4.72e2,
+    "Branch": "BC018-NCA",
+    "Description": "NCA - BC018",
+    "Ranking": 1.6e1
+  },
+  {
+    "ID": 4.73e2,
+    "Branch": "BC019-NCA",
+    "Description": "NCA - BC019",
+    "Ranking": 1.6e1
+  },
+  {
+    "ID": 4.74e2,
+    "Branch": "BC020-NCA",
+    "Description": "NCA - BC020",
+    "Ranking": 1.6e1
+  },
+  {
+    "ID": 4.75e2,
+    "Branch": "BC022-NCA",
+    "Description": "NCA - BC022",
+    "Ranking": 1.6e1
+  },
+  {
+    "ID": 4.76e2,
+    "Branch": "ON064-NCA",
+    "Description": "NCA - ON064",
+    "Ranking": 1.6e1
+  },
+  {
+    "ID": 4.77e2,
+    "Branch": "ON065-NCA",
+    "Description": "NCA - ON065",
+    "Ranking": 1.6e1
+  },
+  {
+    "ID": 4.78e2,
+    "Branch": "ON067-NCA",
+    "Description": "NCA - ON067",
+    "Ranking": 1.6e1
+  },
+  {
+    "ID": 4.79e2,
+    "Branch": "ON068-NCA",
+    "Description": "NCA - ON068",
+    "Ranking": 1.6e1
+  },
+  {
+    "ID": 4.8e2,
+    "Branch": "SK004-NCA",
+    "Description": "NCA - SK004",
+    "Ranking": 1.6e1
+  },
+  {
+    "ID": 4.81e2,
+    "Branch": "S11-Stetson",
+    "Description": "S11 - Stetson",
+    "Ranking": 1.8e1
+  },
+  {
+    "ID": 4.82e2,
+    "Branch": "S12-Stetson",
+    "Description": "S12 - Stetson",
+    "Ranking": 1.8e1
+  },
+  {
+    "ID": 4.83e2,
+    "Branch": "S13-Stetson",
+    "Description": "S13 - Stetson",
+    "Ranking": 1.8e1
+  },
+  {
+    "ID": 4.84e2,
+    "Branch": "S14-Stetson",
+    "Description": "S14 - Stetson",
+    "Ranking": 1.8e1
+  },
+  {
+    "ID": 4.85e2,
+    "Branch": "S15-Stetson",
+    "Description": "S15 - Stetson",
+    "Ranking": 1.8e1
+  },
+  {
+    "ID": 4.86e2,
+    "Branch": "S16-Stetson",
+    "Description": "S16 - Stetson",
+    "Ranking": 1.8e1
+  },
+  {
+    "ID": 4.87e2,
+    "Branch": "S17-Stetson",
+    "Description": "S17 - Stetson",
+    "Ranking": 1.8e1
+  },
+  {
+    "ID": 4.88e2,
+    "Branch": "S18-Stetson",
+    "Description": "S18 - Stetson",
+    "Ranking": 1.8e1
+  },
+  {
+    "ID": 4.89e2,
+    "Branch": "S23-Stetson",
+    "Description": "S23 - Stetson",
+    "Ranking": 1.8e1
+  },
+  {
+    "ID": 4.9e2,
+    "Branch": "S24-Stetson",
+    "Description": "S24 - Stetson",
+    "Ranking": 1.8e1
+  },
+  {
+    "ID": 4.91e2,
+    "Branch": "S32-Stetson",
+    "Description": "S32 - Stetson",
+    "Ranking": 1.8e1
+  },
+  {
+    "ID": 4.92e2,
+    "Branch": "WL-01-Williams",
+    "Description": "WL - 01 - Williams",
+    "Ranking": 1.9e1
+  },
+  {
+    "ID": 4.93e2,
+    "Branch": "WL-02-Williams",
+    "Description": "WL - 02 - Williams",
+    "Ranking": 1.9e1
+  },
+  {
+    "ID": 4.94e2,
+    "Branch": "WL-03-Williams",
+    "Description": "WL - 03 - Williams",
+    "Ranking": 1.9e1
+  },
+  {
+    "ID": 4.95e2,
+    "Branch": "WL-04-Williams",
+    "Description": "WL - 04 - Williams",
+    "Ranking": 1.9e1
+  },
+  {
+    "ID": 4.96e2,
+    "Branch": "WL-05-Williams",
+    "Description": "WL - 05 - Williams",
+    "Ranking": 1.9e1
+  },
+  {
+    "ID": 4.97e2,
+    "Branch": "WL-06-Williams",
+    "Description": "WL - 06 - Williams",
+    "Ranking": 1.9e1
+  },
+  {
+    "ID": 4.98e2,
+    "Branch": "WL-07-Williams",
+    "Description": "WL - 07 - Williams",
+    "Ranking": 1.9e1
+  },
+  {
+    "ID": 4.99e2,
+    "Branch": "WL-08-Williams",
+    "Description": "WL - 08 - Williams",
+    "Ranking": 1.9e1
+  },
+  {
+    "ID": 5.0e2,
+    "Branch": "WL-09-Williams",
+    "Description": "WL - 09 - Williams",
+    "Ranking": 1.9e1
+  },
+  {
+    "ID": 5.01e2,
+    "Branch": "WL-10-Williams",
+    "Description": "WL - 10 - Williams",
+    "Ranking": 1.9e1
+  },
+  {
+    "ID": 5.02e2,
+    "Branch": "WL-50-Williams",
+    "Description": "WL - 50 - Williams",
+    "Ranking": 1.9e1
+  },
+  {
+    "ID": 5.03e2,
+    "Branch": "WL-51-Williams",
+    "Description": "WL - 51 - Williams",
+    "Ranking": 1.9e1
+  }
+]
