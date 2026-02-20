@@ -9,15 +9,15 @@ Follow these rules strictly.
 
 Top-level folders:
 
-- apps/            → Frontend applications (React + Vite)
-- services/        → Backend APIs (Node/Express)
-- packages/        → Shared libraries and reusable modules
-- NovaDataCollection/ → Data-related utilities or scripts
-- storefront-test/ → Testing playground
-- XMPieAdmin/      → Legacy/admin-related UI
+- apps/StoreFrontAdmin/     → Admin frontend (React + Vite)
+- apps/StoreFrontBackEnd/   → Backend API (Node/Express)
+- packages/StoreFrontCore/  → Shared storefront core library
+- NovaDataCollection/       → Data-related utilities or scripts
+- storefront-test/          → Testing playground
+- XMPieAdmin/               → Legacy/admin-related UI
 
 When making changes:
-- Modify only the relevant app/service.
+- Modify only the relevant app/package.
 - Reuse shared logic from packages/ instead of duplicating code.
 - Do not move files across domains unless explicitly instructed.
 
@@ -60,7 +60,7 @@ Bulk body format:
 }
 
 ----------------------------------------------------
-4. Backend Standards (services/)
+4. Backend Standards (StoreFrontBackEnd)
 ----------------------------------------------------
 
 - Use async/await.
@@ -77,7 +77,7 @@ Bulk body format:
 - Do not introduce new dependencies unless necessary.
 
 ----------------------------------------------------
-5. Frontend Standards (apps/)
+5. Frontend Standards (StoreFrontAdmin)
 ----------------------------------------------------
 
 - React functional components with hooks.
@@ -93,13 +93,17 @@ Bulk body format:
 
 Assume npm unless package.json specifies otherwise.
 
-If modifying a service:
-- cd services/<service-name>
+If modifying backend:
+- cd apps/StoreFrontBackEnd
 - npm run dev
 
-If modifying a frontend:
-- cd apps/<app-name>
+If modifying admin frontend:
+- cd apps/StoreFrontAdmin
 - npm run dev
+
+If modifying core package:
+- cd packages/StoreFrontCore
+- npm run <script>  (use existing scripts only; do not invent new ones)
 
 Use existing scripts from package.json.
 Do not invent new ones without reason.
@@ -112,6 +116,7 @@ Do not invent new ones without reason.
 - Do not reformat unrelated files.
 - Do not rename files unless required.
 - Do not upgrade dependencies unless explicitly instructed.
+- Do not delete or simplify existing AGENTS.md rules unless explicitly instructed.
 
 ----------------------------------------------------
 8. When Responding
