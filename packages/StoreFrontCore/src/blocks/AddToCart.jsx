@@ -1,4 +1,4 @@
-// src/blocks/blocks/AddToCart.jsx
+// src/blocks/AddToCart.jsx
 import React from 'react';
 
 export default function AddToCart({ label = 'Add to cart', context }) {

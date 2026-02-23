@@ -1,4 +1,4 @@
-// src/blocks/blocks/ProductGallery.jsx
+// src/blocks/ProductGallery.jsx
 import React, { useMemo } from 'react';
 
 export default function ProductGallery({ maxThumbs = 8, context }) {

@@ -1,4 +1,4 @@
-// src/blocks/blocks/HtmlCssSection.jsx
+// src/blocks/HtmlCssSection.jsx
 import React, { useMemo } from 'react';
 import DOMPurify from 'dompurify';
 

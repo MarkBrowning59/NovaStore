@@ -1,4 +1,4 @@
-// src/blocks/blocks/ImageBlock.jsx
+// src/blocks/ImageBlock.jsx
 import React from 'react';
 
 export default function ImageBlock({ src = '', alt = '', fit = 'cover', aspect = 'auto', rounded = true }) {

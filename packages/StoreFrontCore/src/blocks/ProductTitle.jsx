@@ -1,4 +1,4 @@
-// src/blocks/blocks/ProductTitle.jsx
+// src/blocks/ProductTitle.jsx
 import React from 'react';
 
 export default function ProductTitle({ tag = 'h1', context }) {

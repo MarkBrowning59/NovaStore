@@ -1,4 +1,4 @@
-// src/blocks/blocks/RichText.jsx
+// src/blocks/RichText.jsx
 import React, { useMemo } from 'react';
 import DOMPurify from 'dompurify';
 

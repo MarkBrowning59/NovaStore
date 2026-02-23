@@ -1,4 +1,4 @@
-// src/blocks/blocks/PricePanel.jsx
+// src/blocks/PricePanel.jsx
 import React from 'react';
 
 export default function PricePanel({ context }) {
