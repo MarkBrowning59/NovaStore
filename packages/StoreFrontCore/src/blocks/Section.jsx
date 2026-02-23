@@ -1,4 +1,4 @@
-// src/blocks/blocks/Section.jsx
+// src/blocks/Section.jsx
 import React from 'react';
 import { renderBlocks } from '../renderBlocks.jsx';
 

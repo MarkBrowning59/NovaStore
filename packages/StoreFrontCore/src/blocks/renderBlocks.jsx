@@ -1,6 +1,7 @@
 // src/blocks/renderBlocks.jsx
 import React from 'react';
 import { blockRegistry } from './blockRegistry';
+import { resolveBindings } from '../utils/resolveBindings';
 
 function mergeDefaults(type, props) {
   const def = blockRegistry[type]?.defaults || {};
@@ -14,6 +15,7 @@ function mergeDefaults(type, props) {
  */
 export function renderBlocks(blocks, context) {
   if (!Array.isArray(blocks) || blocks.length === 0) return null;
+  const { product } = context || {};
 
   return blocks.map((b, idx) => {
     const type = b?.type;
@@ -27,7 +29,8 @@ export function renderBlocks(blocks, context) {
       );
     }
 
-    const props = mergeDefaults(type, b?.props);
+    const propsResolved = resolveBindings(b?.props ?? {}, { product });
+    const props = mergeDefaults(type, propsResolved);
     return <Comp key={b?.id || idx} {...props} context={context} blockId={b?.id || `idx_${idx}`} />;
   });
 }
