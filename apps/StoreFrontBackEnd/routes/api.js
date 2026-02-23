@@ -7,5 +7,6 @@ router.use(require('./catalogs.routes'));
 router.use(require('./productProfiles.routes'));
 router.use(require('./productTemplates.routes'));
 router.use(require('./pages.routes'));
+router.use(require('./storefront.routes'));
 
 module.exports = router;
