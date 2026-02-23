@@ -77,6 +77,30 @@ Example binding-style prop:
 { "title": { "$bind": "ProductDefinition.Name" } }
 ```
 
+
+### Binding Convention (v1)
+
+Bindings use an object with a `$bind` property:
+
+```json
+{ "$bind": "path.to.value" }
+
+
+This locks Core behavior before someone invents token syntax later.
+
+---
+
+## 🔧 Adjustment 2 — Clarify that backend returns already-selected template
+
+Right now it’s implied that backend selects template.
+
+Make it explicit in Endpoint section:
+
+Add:
+
+```md
+The backend is responsible for selecting the correct template using the defined precedence and returning it in the response. StoreFrontCore must not perform template selection.
+
 ## Template Selection Precedence
 Template resolution must follow this exact order:
 
