@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@novastore/core": "0.1.0",
     "axios": "^1.9.0",
     "lodash": "^4.17.21",
     "nanoid": "^5.1.5",
