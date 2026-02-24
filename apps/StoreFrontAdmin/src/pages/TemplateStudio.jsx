@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import { renderBlocks } from '@novastore/core';
 import {
   createProductTemplate,
   deleteProductTemplate,
@@ -7,6 +8,7 @@ import {
   cloneProductTemplate,
   updateProductTemplate,
 } from '../services/productTemplatesApi';
+import { fetchStorefrontProduct } from '../services/storefrontApi';
 
 const BLOCK_TYPES = [
   { type: 'Section', label: 'Section' },
@@ -61,6 +63,10 @@ export default function TemplateStudio() {
   const [blockTypeToAdd, setBlockTypeToAdd] = useState(BLOCK_TYPES[0].type);
   const [selectedBlockId, setSelectedBlockId] = useState(null);
   const [saving, setSaving] = useState(false);
+  const [previewProductId, setPreviewProductId] = useState('');
+  const [previewProduct, setPreviewProduct] = useState(null);
+  const [previewLoading, setPreviewLoading] = useState(false);
+  const [previewError, setPreviewError] = useState('');
 
   const selectedTemplate = useMemo(
     () => templates.find((t) => t.key === selectedKey) || null,
@@ -224,7 +230,7 @@ export default function TemplateStudio() {
       // Prefer backend clone endpoint if available.
       try {
         await cloneProductTemplate(draft.key, { newKey, name: newName });
-      } catch (err) {
+      } catch {
         // Fallback: clone client-side (works even if backend doesn't have /clone).
         const source = await fetchProductTemplateByKey(draft.key);
         await createProductTemplate({
@@ -257,6 +263,27 @@ export default function TemplateStudio() {
       setError(e?.response?.data?.message || e?.message || 'Failed to delete template');
     } finally {
       setSaving(false);
+    }
+  }
+
+  async function loadPreviewProduct() {
+    const id = previewProductId.trim();
+    if (!id) {
+      setPreviewError('Enter a product ID to load preview.');
+      setPreviewProduct(null);
+      return;
+    }
+
+    setPreviewLoading(true);
+    setPreviewError('');
+    try {
+      const response = await fetchStorefrontProduct(id);
+      setPreviewProduct(response?.product || null);
+    } catch (e) {
+      setPreviewProduct(null);
+      setPreviewError(e?.response?.data?.message || e?.message || 'Failed to load preview product');
+    } finally {
+      setPreviewLoading(false);
     }
   }
 
@@ -455,11 +482,39 @@ export default function TemplateStudio() {
             )}
           </div>
 
-          <div className="p-4 bg-teal-50 rounded-xl border border-teal-200">
-            <div className="text-sm text-teal-900 font-medium">Preview (coming next)</div>
-            <div className="text-sm text-teal-800 mt-1">
-              Next step: wire this draft into StoreFrontCore&apos;s <span className="font-mono">renderBlocks()</span> so designers can preview templates live.
+          <div className="p-4 bg-teal-50 rounded-xl border border-teal-200 space-y-3">
+            <div className="text-sm text-teal-900 font-medium">Preview</div>
+            <div className="flex flex-col gap-2 sm:flex-row">
+              <input
+                className="w-full border rounded-lg px-3 py-2"
+                placeholder="Product ID (e.g. XMPie13347)"
+                value={previewProductId}
+                onChange={(e) => setPreviewProductId(e.target.value)}
+              />
+              <button
+                className={`px-3 py-2 rounded-lg text-white ${previewLoading ? 'bg-teal-300' : 'bg-teal-600 hover:bg-teal-700'}`}
+                onClick={loadPreviewProduct}
+                disabled={previewLoading}
+              >
+                {previewLoading ? 'Loadingâ€¦' : 'Load Preview'}
+              </button>
             </div>
+
+            {previewError ? (
+              <div className="text-sm text-red-700 bg-red-50 border border-red-200 rounded-lg px-3 py-2">
+                {previewError}
+              </div>
+            ) : null}
+
+            {!draft?.blocks?.length ? (
+              <div className="text-sm text-teal-800">Add blocks to see preview output.</div>
+            ) : !previewProduct ? (
+              <div className="text-sm text-teal-800">Load a product to preview this template.</div>
+            ) : (
+              <div className="rounded-lg border bg-white p-4 space-y-4">
+                {renderBlocks(draft.blocks, { product: previewProduct })}
+              </div>
+            )}
           </div>
         </div>
       </div>
