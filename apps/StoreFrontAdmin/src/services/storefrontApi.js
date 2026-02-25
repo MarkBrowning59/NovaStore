@@ -1,7 +1,6 @@
 import api from "./api";
 
-export async function fetchStorefrontProduct(id) {
-  const { data } = await api.get(`/storefront/products/${encodeURIComponent(id)}`);
-  return data;
+export async function fetchStorefrontProductById(id) {
+  const res = await api.get(`/storefront/products/${encodeURIComponent(id)}`);
+  return res.data;
 }
-

@@ -8,7 +8,7 @@ import {
   cloneProductTemplate,
   updateProductTemplate,
 } from '../services/productTemplatesApi';
-import { fetchStorefrontProduct } from '../services/storefrontApi';
+import { fetchStorefrontProductById } from '../services/storefrontApi';
 
 const BLOCK_TYPES = [
   { type: 'Section', label: 'Section' },
@@ -67,6 +67,7 @@ export default function TemplateStudio() {
   const [previewProduct, setPreviewProduct] = useState(null);
   const [previewLoading, setPreviewLoading] = useState(false);
   const [previewError, setPreviewError] = useState('');
+  const template = draft;
 
   const selectedTemplate = useMemo(
     () => templates.find((t) => t.key === selectedKey) || null,
@@ -278,7 +279,7 @@ export default function TemplateStudio() {
     setPreviewLoading(true);
     setPreviewError('');
     try {
-      const response = await fetchStorefrontProduct(id);
+      const response = await fetchStorefrontProductById(id);
       setPreviewProduct(response?.product || null);
     } catch (e) {
       setPreviewProduct(null);
@@ -497,7 +498,7 @@ export default function TemplateStudio() {
                 onClick={loadPreviewProduct}
                 disabled={previewLoading}
               >
-                {previewLoading ? 'Loadingâ€¦' : 'Load Preview'}
+                {previewLoading ? 'Loading...' : 'Load Preview'}
               </button>
             </div>
 
@@ -507,13 +508,13 @@ export default function TemplateStudio() {
               </div>
             ) : null}
 
-            {!draft?.blocks?.length ? (
+            {!template?.blocks?.length ? (
               <div className="text-sm text-teal-800">Add blocks to see preview output.</div>
             ) : !previewProduct ? (
               <div className="text-sm text-teal-800">Load a product to preview this template.</div>
             ) : (
               <div className="rounded-lg border bg-white p-4 space-y-4">
-                {renderBlocks(draft.blocks, { product: previewProduct })}
+                {renderBlocks(template.blocks, { product: previewProduct })}
               </div>
             )}
           </div>
