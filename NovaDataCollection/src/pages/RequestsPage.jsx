@@ -125,7 +125,7 @@ export default function RequestsPage() {
         ...optionKeys.map((key) => opt[key] ?? ""),
         ship.fullname ?? "",
         ship.email ?? "",
-        ship.manager ?? "",
+        ship.phone ?? "",
         ship.address1 ?? "",
         ship.address2 ?? "",
         ship.city ?? "",
@@ -149,7 +149,7 @@ export default function RequestsPage() {
 
   return (
     <div style={{ maxWidth: "900px", margin: "0 auto", padding: "1rem" }}>
-      <h1>Promotional Option Requests</h1>
+      <h1>100 Years of W. R. Meadows <br/> Promotional Option Requests</h1>
 
       {/* Store selector + CSV */}
       <form
@@ -268,7 +268,7 @@ export default function RequestsPage() {
                   <strong>Email:</strong> {ship.email}
                 </div>
                 <div>
-                  <strong>Manager:</strong> {ship.manager}
+                  <strong>Phone:</strong> {ship.phone}
                 </div>
                 <div>
                   <strong>Address:</strong>{" "}

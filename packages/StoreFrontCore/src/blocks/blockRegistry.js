@@ -1,12 +1,12 @@
 // src/blocks/blockRegistry.js
-import Section from './blocks/Section.jsx';
-import RichText from './blocks/RichText.jsx';
-import ImageBlock from './blocks/ImageBlock.jsx';
-import HtmlCssSection from './blocks/HtmlCssSection.jsx';
-import ProductTitle from './blocks/ProductTitle.jsx';
-import ProductGallery from './blocks/ProductGallery.jsx';
-import PricePanel from './blocks/PricePanel.jsx';
-import AddToCart from './blocks/AddToCart.jsx';
+import Section from './Section.jsx';
+import RichText from './RichText.jsx';
+import ImageBlock from './ImageBlock.jsx';
+import HtmlCssSection from './HtmlCssSection.jsx';
+import ProductTitle from './ProductTitle.jsx';
+import ProductGallery from './ProductGallery.jsx';
+import PricePanel from './PricePanel.jsx';
+import AddToCart from './AddToCart.jsx';
 
 /**
  * Registry of allowed blocks.

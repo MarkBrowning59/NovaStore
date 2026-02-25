@@ -1,6 +1,6 @@
 // src/blocks/Section.jsx
 import React from 'react';
-import { renderBlocks } from '../renderBlocks.jsx';
+import { renderBlocks } from './renderBlocks.jsx';
 
 const padMap = {
   none: 'p-0',

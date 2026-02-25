@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <HashRouter>
       <Routes>
         {/* Optional: redirect root to a default store */}
-        <Route path="/" element={<Navigate to="/requests?storeNumber=1" replace />} />
+        <Route path="/" element={<Navigate to="/requests?storeNumber=3" replace />} />
 
         {/* Query param style: /requests?storeNumber=1 */}
         <Route path="/requests" element={<RequestsPage />} />
